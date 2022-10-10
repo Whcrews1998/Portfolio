@@ -1,6 +1,7 @@
-import Head from 'next/head'
-import {BsFillMoonStarsFill} from 'react-icons/bs'
-import {AiFillGithub, AiFillLinkedin} from 'react-icons/ai';
+import Head from "next/head"
+import Link from "next/link"
+import {BsFillMoonStarsFill} from "react-icons/bs"
+import {AiFillGithub, AiFillLinkedin} from "react-icons/ai";
 import Image from "next/image";
 import Profile from "../public/LinkedIn_Profile.png";
 
@@ -13,25 +14,25 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className='bg-gradient-to-t from-cyan-50 to-teal-200 bg-cyan-50'>
-        <section className='min-h-screen'>
-          <nav className=' py-10 px-5 mb-2 flex justify-between bg-orange-200 shadow-lg lg:px-10'>
-            <h1 className='text-xl font-burtons lg:text-3xl'>Portfolio</h1>
-            <ul className='flex items-center lg:gap-20'>
-              <li><BsFillMoonStarsFill className=' cursor-pointer text-xl lg:text-2xl'/></li>
-              <li><a href="./resume" className='bg-gradient-to-t  from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8 lg:text-2xl'>Resume</a></li>
+      <main className="bg-gradient-to-t from-cyan-50 to-teal-200 bg-cyan-50">
+        <section className="min-h-screen">
+          <nav className=" py-10 px-5 mb-2 flex justify-between bg-orange-200 shadow-lg lg:px-10">
+            <h1 className="text-xl font-burtons lg:text-3xl">Portfolio</h1>
+            <ul className="flex items-center lg:gap-20">
+              <li><BsFillMoonStarsFill className=" cursor-pointer text-xl lg:text-2xl"/></li>
+              <li><Link href="./resume"><a  className="bg-gradient-to-t  from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8 lg:text-2xl">Resume</a></Link></li>
             </ul>
           </nav>
-          <div className='text-center py-5 mx-5'>
-            <h2 className='text-5xl py-2 text-teal-600 font-medium'>Harris Crews</h2>
-            <h3 className='text-2xl py-2'>Software Developer</h3>
-            <div className='relative rounded-full mx-auto mt-5 w-72 h-72 border-2 border-gray-400 shadow-xl lg:w-60 lg:h-60'>
-              <Image src={Profile} className="rounded-full" layout='fill' objectFit='cover'/>
+          <div className="text-center py-5 mx-5">
+            <h2 className="text-5xl py-2 text-teal-600 font-medium">Harris Crews</h2>
+            <h3 className="text-2xl py-2">Software Developer</h3>
+            <div className="relative rounded-full mx-auto mt-5 w-72 h-72 border-2 border-gray-400 shadow-xl lg:w-60 lg:h-60">
+              <Image src={Profile} className="rounded-full" layout="fill" objectFit="cover"/>
             </div>
-            <p className='my-5  bg-gray-200 rounded-md text-md py-5 leading-7 text-gray-800 lg:mx-80'> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            <div className='flex justify-center text-4xl gap-10 text-gray-600 '>
-              <a href="https://github.com/whcrews1998" target="blank"> <AiFillGithub className=' cursor-pointer'/> </a>
-             <a href="https://linkedin.com/in/harris-crews-587813231" target="blank"><AiFillLinkedin className=' cursor-pointer'/></a> 
+            <p className="my-5  bg-gray-200 rounded-md text-md py-5 leading-7 text-gray-800 lg:mx-80"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <div className="flex justify-center text-4xl gap-10 text-gray-600 ">
+              <a href="https://github.com/whcrews1998" target="blank"> <AiFillGithub className=" cursor-pointer"/> </a>
+             <a href="https://linkedin.com/in/harris-crews-587813231" target="blank"><AiFillLinkedin className=" cursor-pointer"/></a> 
             </div>
           </div>
         </section>
