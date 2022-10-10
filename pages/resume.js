@@ -49,7 +49,7 @@ export default function Home() {
                 <div className="my-1 mx-1">
                     <h1 className="mb-2 font-medium text-gray-200 text-md md:text-2xl lg:text-2xl">Accomplishments</h1>
                     <ul className="ml-3">
-                        <li className="text-gray-300 text-xs list-disc md:text-base lg:text-base">University of Alabama President"s List, 2019</li>
+                        <li className="text-gray-300 text-xs list-disc md:text-base lg:text-base">University of Alabama President's List, 2019</li>
                     </ul>
                 </div>
                 <hr className="my-3 mx-1 h-px bg-gray-300 border-0"/>
