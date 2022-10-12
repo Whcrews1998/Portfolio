@@ -21,7 +21,7 @@ export default function Home() {
           <nav className=" py-10 px-5 mb-2 flex justify-between bg-orange-200 shadow-lg lg:px-10">
             <h1 className="text-xl font-burtons lg:text-3xl">Portfolio</h1>
             <ul className="flex items-center lg:gap-20">
-              <li><BsFillMoonStarsFill className=" cursor-pointer text-xl lg:text-2xl"/></li>
+              <li><BsFillMoonStarsFill className=" cursor-pointer text-xl lg:text-4xl"/></li>
               <li><Link href="./resume"><a  className="bg-gradient-to-t  from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8 lg:text-2xl">Resume</a></Link></li>
             </ul>
           </nav>
@@ -33,8 +33,8 @@ export default function Home() {
             </div>
             <p className="my-5  bg-gray-200 rounded-md text-md py-5 leading-7 text-gray-800 lg:mx-80"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
             <div className="flex justify-center text-4xl gap-10 text-gray-600 ">
-              <a href="https://github.com/whcrews1998" target="blank"> <AiFillGithub className=" cursor-pointer"/> </a>
-             <a href="https://linkedin.com/in/harris-crews-587813231" target="blank"><AiFillLinkedin className=" cursor-pointer"/></a> 
+              <a href="https://github.com/whcrews1998" target="blank"> <AiFillGithub className=" cursor-pointer lg:text-6xl"/> </a>
+             <a href="https://linkedin.com/in/harris-crews-587813231" target="blank"><AiFillLinkedin className=" cursor-pointer lg:text-6xl"/></a> 
             </div>
           </div>
         </section>
