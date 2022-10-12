@@ -1,7 +1,13 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {
-  reactStrictMode: true,
-  swcMinify: true,
-}
+return {
+  webpack: (config) => {
+    config.optimization.splitChunks.cacheGroups = {
+      common: {
+        name: "common",
+        chunks: "all",
+      },
+    };
 
-module.exports = nextConfig
+    return config;
+  },
+};

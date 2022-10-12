@@ -4,12 +4,10 @@
   "homepage": "https://Whcrews1998.github.io/Portfolio",
   "private": true,
   "scripts": {
+    "style": "tailwindcss build ./styles/globals.css -o ./styles/tailwind.output.css",
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "lint": "next lint",
-    "predeploy": "npm run build",
-    "deploy": "npm run build && gh-pages -d build"
+    "start": "next start"
   },
   "dependencies": {
     "next": "12.3.1",

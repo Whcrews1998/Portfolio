@@ -12,6 +12,7 @@ export default function Home() {
         <title>Harris Crews Resume</title>
         <meta name="description" content="My resume" />
         <link rel="icon" href="/favicon.ico" />
+        <link rel="stylesheet" href="../styles/tailwind.output.css"/>
       </Head>
 
       <main className="min-h-screen font-serif bg-gray-700">
