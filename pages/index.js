@@ -4,9 +4,33 @@ import {BsFillMoonStarsFill} from "react-icons/bs"
 import {AiFillGithub, AiFillLinkedin} from "react-icons/ai";
 import Image from "next/image";
 import Profile from "../public/LinkedIn_Profile.png";
+import axios from 'axios';
+import { useState, useEffect} from "react";
+import factApi from "./api/getFact";
+
+
+
+
 
 
 export default function Home() {
+
+  const [fact, setFact] = useState();
+ 
+  useEffect(() => {
+    function getData() {
+       factApi.get('v1/facts?limit=1').then(function(response) {
+        setFact(response.data[0].fact);
+      }).catch((error) => {
+        console.log(error);
+      });
+    }
+    
+    getData();
+  }, []);
+  
+  if (fact == null ) {return null}
+
   return (
     <div>
       <Head>
@@ -28,6 +52,7 @@ export default function Home() {
           <div className="text-center py-5 mx-5">
             <h2 className="text-5xl py-2 text-teal-600 font-medium">Harris Crews</h2>
             <h3 className="text-2xl py-2">Software Developer</h3>
+            <p className="">{fact}</p>
             <div className="relative rounded-full mx-auto mt-5 w-72 h-72 border-2 border-gray-400 shadow-xl lg:w-60 lg:h-60">
               <Image src={Profile} className="rounded-full" layout="fill" objectFit="cover"/>
             </div>
