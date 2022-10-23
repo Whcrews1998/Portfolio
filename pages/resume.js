@@ -16,8 +16,8 @@ export default function Home() {
       </Head>
 
       <main className="min-h-screen font-serif bg-gray-700">
-        <section>
-            <div className="pt-7 pb-5 pl-5 bg-resumeTitle text-2xl text-white flex justify-between">
+        <section className="bg-resumeTitle md:px-20 lg:px-40">
+            <div className="pt-7 pb-5 pl-5 text-2xl text-white flex justify-between">
                 <p className="m-2 lg:mt-3">Harris Crews</p>
                 <div className="flex items-center mr-3">
                     <div className="bg-gray-500 hover:bg-gray-600 active:bg-gray-700 m-2 px-2 py-1 text-sm rounded-md      lg:mr-12 lg:text-lg lg:py-2 lg:px-6">Download</div>
@@ -90,7 +90,7 @@ export default function Home() {
                 </div>
                 
             </div>
-            <div className="min-h-screen  bg-white  flex-1 basis-3/4 p-3 lg:basis-3/6 lg:px-10 lg:py-5">
+            <div className="min-h-screen  bg-white  flex-1 basis-3/4 p-3 lg:basis-3/6 lg:px-10 lg:pr-28 lg:py-5">
                 <p className=" text-xxs md:text-base lg:text-lg">
                     Skilled multitasker with a superior work ethic and excellent
                     communication skills. Motivated by solving or improving existing
@@ -99,7 +99,20 @@ export default function Home() {
                 </p>
                 <hr className="my-3 h-px bg-gray-600 border-0"/>
                 <h1 className="md:text-lg lg:text-2xl">Work History</h1>
-                <div className="mt-1">
+                <div className="mt-1 lg:pr-32">
+                    <div className="my-1 ">
+                        <p className="text-xs md:text-base lg:text-lg">July 2022 to Today</p>
+                        <p className="text-xxs font-bold md:text-xs lg:text-base">
+                            Software Developer, 
+                            <span className="italic text-xxs font-medium md:text-xs lg:text-base"> Amdocs, </span>
+                            <span className="text-xxs font-light md:text-xs lg:text-base">Atlanta, GA</span>
+                        </p>
+                        <ul className="text-xxs md:text-xs lg:text-base list-disc ml-5 mt-1">
+                            <li>Revised, modularized, and updated old code bases to modern development standards, reducing operating costs and improving functionality.</li>
+                            <li>Collaborated on stages of system development lifecycle from requirement gathering to production releases.</li>
+                            <li>Participated in software field testing to verify the performance of developed projects.</li>
+                        </ul>
+                    </div>
                     <div className="my-1">
                         <p className="text-xs md:text-base lg:text-lg">May 2019 to August 2019</p>
                         <p className="text-xxs font-bold md:text-xs lg:text-base">
