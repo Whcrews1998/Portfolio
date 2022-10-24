@@ -20,7 +20,9 @@ export default function Home() {
             <div className="pt-7 pb-5 pl-5 text-2xl text-white flex justify-between">
                 <p className="m-2 lg:mt-3">Harris Crews</p>
                 <div className="flex items-center mr-3">
-                    <div className="bg-gray-500 hover:bg-gray-600 active:bg-gray-700 m-2 px-2 py-1 text-sm rounded-md      lg:mr-12 lg:text-lg lg:py-2 lg:px-6">Download</div>
+                    <a href="Resume.png" download="Resume.png" title="Resume">
+                        <div className="bg-gray-500 hover:bg-gray-600 active:bg-gray-700 m-2 px-2 py-1 text-sm rounded-md lg:mr-12 lg:text-lg lg:py-2 lg:px-6">Download</div>
+                    </a>
                     <Link href="/"><a><div className="bg-gray-500 hover:bg-gray-600 active:bg-gray-700 m-2 ml-4 px-2 py-1 text-sm rounded-md lg:mr-6 lg:text-lg lg:py-2 lg:px-6">
                        Home
                     </div></a></Link>
