@@ -39,7 +39,7 @@ export default function Home() {
       <main className="bg-[#FAF7F0] dark:bg-[#082032]">
         <section className="min-h-screen">
           <nav className=" py-10 px-5 mb-2 flex justify-between bg-[#CDFCF6] dark:bg-[#334756] shadow-lg lg:px-10">
-            <h1 className="text-black dark:text-white text-xl font-burtons lg:text-3xl">Crews Inc.</h1>
+            <h1 className="text-black dark:text-white text-xl font-burtons lg:text-3xl">My Simple Website</h1>
             <ul className="flex items-center lg:gap-20">
               <li><BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} className=" cursor-pointer text-xl lg:text-4xl dark:text-white"/></li>
               <li><Link href="./resume"><a  className="bg-gradient-to-t  from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8 lg:text-2xl dark:bg-gradient-to-t dark:from-[#f25637] dark:to-[#fd2a00]">Resume</a></Link></li>
@@ -52,7 +52,7 @@ export default function Home() {
             <div className="relative rounded-full mx-auto mt-5 w-72 h-72 border-2 border-gray-400 shadow-xl lg:w-60 lg:h-60">
               <Image src={Profile} className="rounded-full" layout="fill" objectFit="cover"/>
             </div>
-            <p className="my-5  bg-gray-200 dark:bg-[#334756] dark:text-white rounded-md shadow-md text-md py-5 leading-7 text-gray-800 lg:mx-80"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p className="my-5  bg-gray-200 dark:bg-[#334756] dark:text-white rounded-md shadow-md text-md py-5 leading-7 text-gray-800 lg:mx-80"> Hello, my name is Harris Crews! I’m a software developer, currently working at Amdocs in Alpharetta, GA. I am hard-working and dedicated to my assignments. I love working within a team setting that encourages teamwork and communication. I find that time flys by when I am working on a challenging problem and love the feeling accomplishment when it's solved. Every day I strive to improve myself by learning something new or brushing up on an already-known topic, if the subject is related to computer science, you have my full attention. </p>
             <div className="flex justify-center text-4xl gap-10 text-gray-600 ">
               <a href="https://github.com/whcrews1998" target="blank"> <AiFillGithub className=" cursor-pointer lg:text-6xl lg:mr-20 dark:text-white"/> </a>
              <a href="https://linkedin.com/in/harris-crews-587813231" target="blank"><AiFillLinkedin className=" cursor-pointer lg:text-6xl dark:text-white"/></a> 
