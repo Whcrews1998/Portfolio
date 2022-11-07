@@ -52,10 +52,10 @@ export default function Home() {
             <div className="relative rounded-full mx-auto mt-5 w-72 h-72 border-2 border-gray-400 shadow-xl lg:w-60 lg:h-60">
               <Image src={Profile} className="rounded-full" layout="fill" objectFit="cover"/>
             </div>
-            <p className="my-5  bg-gray-200 dark:bg-[#334756] dark:text-white rounded-md shadow-md text-md py-5 leading-7 text-gray-800 lg:mx-80"> Hello, my name is Harris Crews! I’m a software developer, currently working at Amdocs in Alpharetta, GA. I am hard-working and dedicated to my assignments. I love working within a team setting that encourages teamwork and communication. I find that time flys by when I am working on a challenging problem and love the feeling accomplishment when it's solved. Every day I strive to improve myself by learning something new or brushing up on an already-known topic, if the subject is related to computer science, you have my full attention. </p>
+            <p className="my-5  bg-gray-200 dark:bg-[#334756] dark:text-white rounded-md shadow-md text-md py-5 px-5 leading-7 text-gray-800 lg:mx-80"> Hello, my name is Harris Crews! I’m a software developer, currently working at Amdocs in Alpharetta, GA. I am hard-working and dedicated to my assignments. I love working within a team setting that encourages teamwork and communication. I find that time flys by when I am working on a challenging problem and love the feeling accomplishment when it's solved. Every day I strive to improve myself by learning something new or brushing up on an already-known topic, if the subject is related to computer science, you have my full attention. </p>
             <div className="flex justify-center text-4xl gap-10 text-gray-600 ">
-              <a href="https://github.com/whcrews1998" target="blank"> <AiFillGithub className=" cursor-pointer lg:text-6xl lg:mr-20 dark:text-white"/> </a>
-             <a href="https://linkedin.com/in/harris-crews-587813231" target="blank"><AiFillLinkedin className=" cursor-pointer lg:text-6xl dark:text-white"/></a> 
+              <a href="https://github.com/whcrews1998" target="blank"> <AiFillGithub className=" cursor-pointer mr-14 text-6xl lg:mr-20 dark:text-white"/> </a>
+             <a href="https://linkedin.com/in/harris-crews-587813231" target="blank"><AiFillLinkedin className=" cursor-pointer text-6xl dark:text-white"/></a> 
             </div>
           </div>
         </section>
